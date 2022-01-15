@@ -277,9 +277,12 @@ footer{
         width: 329px;
         height: 4550px;
     }
+    .see-more{
+        margin-left:200px;
+    }
 @media only screen and (max-width:576px) {
     .artical-about-items{
     display: block;
-    margin-top: 50px;
+    margin-top: 300px;
     margin-bottom: 50px;
 }
