@@ -157,7 +157,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 900px;
+    margin-left: 800px;
 }
 .fa-arrow-right{
     color: #E02C6DDE;
@@ -171,6 +171,51 @@ main{
 }
 button{
     border: 0px;
+}
+/* -------------------------------------
+        artical-about-more-influencr item
+---------------------------------------  */
+.artical-about-items{
+    display: flex;
+}
+.artical-banner{
+    margin-left: 120px;
+}
+.artical-information{
+    width:610px;
+    height:224px;
+    margin-left: 89px;
+}
+.artical-titel{
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+    margin: 10px 0;
+}
+.artical-info{
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+}
+/*------------------
+    button-see-more
+-------------------*/
+.visit-here{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    border-radius: 5px;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.visit-here a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 /*----------- 
       footer-dec
