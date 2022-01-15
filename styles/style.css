@@ -1,0 +1,195 @@
+/* ------------
+text-font 
+---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;500;700&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* -----
+header-start 
+------*/
+.heading-nav{
+    display: flex;
+}
+header{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 87px;
+    margin-left: 120px;
+    margin-bottom: 145px;
+}
+/* ---------------
+blog-titel-influencer
+---------- */
+.blog-info{
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: 16px;
+}
+.article-titel{
+    Width:582px;
+    Height:133px;
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.article-info{
+    width: 505px;
+    height: 69.9px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+    margin:16px 0;
+}
+.influencer-thumbnil img{
+    margin-top: -100px;
+    margin-left: 133px;
+    overflow: hidden;
+}
+/* -----------
+photo-transform-transition-bounspoint 
+------------*/
+.influencer-thumbnil:hover img{
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+/* -------
+button-pre book
+---------- */
+.button-font a{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 24px;
+}
+.fa-arrow-right{
+    margin-left: -15px;
+    color: #FFFFFF;
+}
+.book-button{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 196px;
+    height:44px;
+    background-color: #E02C6D;
+    border: 1px solid #E02C6D;
+    border-radius: 41px;
+}
+/* ------------------
+     influencer-item
+--------------------- */
+.influencer-item{
+    width: 1047px;
+    height: 1662px;
+    background-color:#aaaaaa28;
+    margin: 80px 196px;
+}
+.influencer-item-titel{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+/*---------- 
+      items
+----------- */
+main{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.item{
+    width:329px;
+    height:476px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.item-thumblin{
+    width:300px;
+    height:256px;
+    margin-left:15px;
+    margin-top: 17px;
+}
+.item-titel{
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+    margin-top: 16px;
+    margin-left:15px;
+}
+.item-rate{
+    font-size: 24px;
+    font-weight: 400;
+    color: #18191F;
+    margin-top: -30px;
+    margin-bottom: 0;
+    margin-left:15px;
+}
+/*------------------
+      rating-icon 
+ ------------------*/
+.rating{
+    margin-left:15px;
+}
+ .fa-star.field{
+    color: #FB8200;
+}
+.fa-star-half-alt.field{
+    color: #FB8200;
+
+}
+.item-info{
+    font-size: 14px;
+    font-weight:700;
+    color: #787885;
+    margin-left:15px;
+}
+/* ------------
+       button-see-more
+---------- */
+.see-more{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 900px;
+}
+.fa-arrow-right{
+    color: #E02C6DDE;
+}
+.see-more a{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration:none;
+    color: #E02C6DDE;
+    padding: 10px 24px;
+}
+button{
+    border: 0px;
+}
+/*----------- 
+      footer-dec
+--------------- */
+footer{
+    background-color: #0A0826;
+    text-align: center;
+}
+.footer-titel{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    
+}
+.footer-font{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.footer-icon{
+    color: #FFFFFF;
+}
