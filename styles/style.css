@@ -22,6 +22,12 @@ header{
 /* ---------------
 blog-titel-influencer
 ---------- */
+.blogs{
+    display: flex;
+    width: 440px;
+    height: 414px;
+    
+}
 .blog-info{
     display: flex;
     margin-left: 120px;
@@ -46,7 +52,7 @@ blog-titel-influencer
 }
 .influencer-thumbnil img{
     margin-top: -100px;
-    margin-left: 133px;
+    margin-left: 100px;
     overflow: hidden;
 }
 /* -----------
@@ -177,6 +183,7 @@ button{
 ---------------------------------------  */
 .artical-about-items{
     display: flex;
+    flex-direction: row;
 }
 .artical-banner{
     margin-left: 120px;
@@ -237,4 +244,42 @@ footer{
 }
 .footer-icon{
     color: #FFFFFF;
+}
+/*---------------------
+      media-quaries
+----------------------  */
+/*-----------------------
+      mobile-device
+-------------------------  */
+@media only screen and (max-width:576px) {
+    .blogs{
+        display: block;justify-content: center;
+    }
+}
+@media  only screen and (max-width:576px) {
+    .influencer-thumbnil{
+        width: 257px;
+        height: 257px;
+    }
+    .influencer-thumbnil img{ 
+        width: 202px;
+        height: 190px;
+        margin-top: 10px;
+        margin-left: 250px;
+    }
+}
+@media only screen and (max-width:576px) {
+    main{
+        grid-template-columns:1fr;
+        width: 100%;
+    }
+    .influencer-item{
+        width: 329px;
+        height: 4550px;
+    }
+@media only screen and (max-width:576px) {
+    .artical-about-items{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
